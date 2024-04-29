@@ -1,0 +1,12 @@
+title: Syazaril Asyraf's Feed # name of the site
+author: Syazaril Asyraf # name of site's author
+email: wan@syazarilasyraf.com # email of site's author
+url: https://feed.syazarilasyraf.com # root address of the site
+baseurl: "" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
+description: Syazaril Asyraf's Feed. # description of the site (multiple lines allowed)
+
+permalink: /:slug.html
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
