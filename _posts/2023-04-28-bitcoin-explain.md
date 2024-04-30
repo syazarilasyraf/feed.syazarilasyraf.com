@@ -1,0 +1,5 @@
+---
+date: 2023-10-08 09:14:00 +0200
+share: true
+---
+In theory, people use Bitcoin because they don't want to rely on financial institutions. However, in reality, using Bitcoin requires trusting multiple parties. You need to trust the wallet provider, the crypto exchange, the mining pool, and the person who explains to you why cryptocurrency is secure because most people can't independently verify Bitcoin's security. They simply trust others' explanations. The idea that Bitcoin is trustless is a myth; in practice, you have to trust many parties to use Bitcoin effectively.
