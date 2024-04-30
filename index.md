@@ -1,4 +1,4 @@
 ---
-title: Syazaril Asyraf's Feed
+title: Wan's Feed
 layout: default
 ---
