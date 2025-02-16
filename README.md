@@ -16,7 +16,7 @@ The website is built using [Jekyll](https://jekyllrb.com/), with design inspirat
 
 One unique feature of this platform is the ability to post notes directly from the Obsidian.
 
-I explained how i do this on this [post](https://syazarilasyraf.com/personalizing-your-website).
+I explained how i do this on this [post](https://syazarilasyraf.com/breaking-the-cliche-of-your-personal-website).
 
 ## Key Features
 
