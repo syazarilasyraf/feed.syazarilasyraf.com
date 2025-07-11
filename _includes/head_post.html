@@ -1,0 +1,55 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <!-- <title>{%- if page.title -%}
+    {{ page.title }}
+  {%- elsif page.url == '/' -%}
+    {{ page.index_title }}
+  {%- else -%}
+  {{ site.title }}
+  {%- endif -%}</title> -->
+  <title>Post | Wan's Feed</title>
+  <link rel="icon" type="image/svg+xml" href="/logo.png">
+  
+  {%- seo title=false -%}
+
+  {% if page.robots %}
+    <meta name="robots" content="{{page.robots}}" />
+  {% endif %}
+
+  <link rel="stylesheet" href="/assets/index.542cca3d.css" />
+  <link rel="stylesheet" href="/assets/index.6d5293e1.css" />
+
+  <script type="module">
+    const a = new Intl.DateTimeFormat("en-US", {
+        month: "short",
+        day: "numeric",
+        year: "numeric",
+      }),
+      c = Date.now(),
+      s = { days: 864e5, hours: 36e5, minutes: 6e4, seconds: 1e3 },
+      l = (e) => {
+        const t = e.valueOf(),
+          o = t - c;
+        for (const [n, r] of Object.entries(s))
+          if (Math.abs(o) > r)
+            return n == "days"
+              ? `${a.format(t).replace(`, ${new Date().getFullYear()}`, "")}`
+              : `${Math.abs(Math.floor(o / r))}${n[0]}`;
+        return "just now";
+      };
+    for (const e of document.querySelectorAll("time")) {
+      const t = new Date(e.getAttribute("datetime"));
+      e.textContent = l(t);
+    }
+    for (const e of document.querySelectorAll(".code-block"))
+      e.addEventListener("click", async (t) => {
+        !t.target.closest("button.copy") ||
+          (await navigator.clipboard.writeText(
+            e.querySelector("code").textContent
+          ));
+      });
+  </script>
+
+</head>
