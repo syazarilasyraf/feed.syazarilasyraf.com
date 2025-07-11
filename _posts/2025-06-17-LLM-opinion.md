@@ -1,0 +1,5 @@
+---
+date: 2025-06-17T20:07:32.379Z
+share: true
+---
+LLMs are just universal function approximators, but it turns out that those are really useful.
